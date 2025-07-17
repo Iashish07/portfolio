@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@theme {
+    --font-zentry:zentry; 
+    --font-circular-web:circular-web;
+}
+@layer base{
+  @font-face {
+        font-family: 'zentry';
+        src: url('/fonts/zentry-regular.woff2') format('woff2');
+    }
+  @font-face {
+        font-family: 'circular-web';
+        src: url('public/fonts/circularweb-book.woff2') format('woff2');
+    }
+
+}
+.skill-card {
+    @apply relative md:w-60 md:h-60 p-4 rounded-xl shadow-md bg-[#1F2937] text-white
+      flex flex-col justify-end ml-4 mt-1 overflow-hidden hover:scale-105 transition;
+  }
+.skill-card-content {
+    @apply relative z-10 text-left;
+  }
+
+
+  
