@@ -1,5 +1,5 @@
 import React from 'react'
-
+ 
 const Skills = () => {
   return (
     <section className='bg-linear-to-t from-[#142738] to-[#101820] w-full md:min-h-[60vh]`
